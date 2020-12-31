@@ -11,9 +11,9 @@ int main() {
 
 
 
-    int height = 8;
-    std::cout<<"enter tree height > 8";
-    //std::cin>>height;
+    int height;
+    std::cout<<"enter tree height > ";
+    std::cin>>height;
 
     height *= 2;
 
